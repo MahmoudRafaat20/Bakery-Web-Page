@@ -1,0 +1,301 @@
+.Header {
+    background-image: url(Images/drew-coffman-1872.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 0px;
+}
+
+nav li {
+    margin-top: 75px;
+    padding: 0px 20px;
+    color: rgb(237, 237, 237);
+}
+
+.Logo {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 215px;
+    height: 75px;
+    position: absolute;
+}
+
+.Intro {
+    text-align: center;
+    color: aliceblue;
+    padding: 200px;
+    font-size: larger;
+}
+
+.Intro button {
+    margin-top: 35px;
+    border-color: aliceblue;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Btn1 {
+    background: rgba(122, 122, 43, 0.905);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+.Btn1:hover {
+    color: rgba(122, 122, 59, 0.905);
+    background-color: aliceblue;
+    border-color:rgba(122, 122, 59, 0.905); ;
+}
+
+.Btn1::before {
+    background: rgba(121, 121, 54, 0.905);
+}
+
+.Btn2 {
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+.Btn2:hover{
+    color: rgba(122, 122, 59, 0.905);
+    background-color: aliceblue;
+    border-color: rgba(122, 122, 59, 0.905);;
+}
+
+.breadsection {
+   font: 1em sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.breadsection li{
+    align-items: center;
+
+}
+
+.list {
+
+    padding: 10px 50px;
+    font-size: large;
+}
+
+.bread {
+    height: 360px;
+    width: 360px;
+    padding: 15px 1px 0px 21px;
+}
+
+.TextSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.breadsection ul li {
+    padding: 15px;
+    display: flex;
+}
+
+.breadsection li img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px 0px 0px;
+}
+
+.LocationSection {
+    padding: 100px 500px 0px 0px;
+    margin-top: 12px;
+}
+
+.Bakery {
+    padding: 0px 0px 0px 285px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+}
+
+.Location {
+    padding: 15px 100px 75px 75px;
+    text-align: center;
+    background-color: rgb(225, 218, 218);
+}
+
+.BakingText {
+    padding: 25px;
+    text-align: center;
+}
+
+.BakingImages img {
+    width: 320px;
+    height: 265px;
+}
+
+.BakingImages li {
+    display: inline-block;
+    padding: 0px 0px 0px 100px;
+}
+
+.BackingDesciption ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 100px 25px;
+
+}
+
+.BackingDesciption li {
+    display: inline-block;
+    padding: 0px 80px 40px 20px;
+}
+
+.Map {
+    padding: 55px 0px 0px 1000px;
+    position: absolute;
+    height: 360px;
+    width: 410px;
+}
+
+.ContactInfo {
+    padding: 100px 480px 0px 30px;
+}
+
+.ContactInfo p {
+    padding: 0px 0px 0px 0px
+}
+
+.ContactDetails p {
+    padding: 0px 0px 0px 40px;
+}
+
+.ContactDetails li img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ContactDetails ul li {
+    padding: 0px 0px;
+    margin-bottom: 15px;
+}
+
+.Contact {
+    padding: 0px 0px 10px 0px;
+    background-color: rgb(225, 218, 218);
+}
+
+.about li {
+    padding: 85px 1300px 0px 0px;
+    position: absolute;
+}
+
+.about h1 {
+    position: absolute;
+    padding: 25px 0px 0px 35px;
+    color: aliceblue;
+}
+
+.Features li {
+    padding: 50px 1300px 0px 0px;
+    position: absolute;
+}
+
+.Features {
+    padding: 0px 0px 0px 300px;
+    position: absolute;
+}
+
+.Features h1 {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.Features li img {
+    width: 30px;
+    height: 30px;
+}
+
+.Schedule li img {
+    width: 30px;
+    height: 30px;
+}
+
+.Schedule {
+    padding: 0px 0px 0px 750px;
+    text-align: right;
+    position: absolute;
+
+}
+
+.Schedule ul {
+    padding: 0px 25px 0px 0px;
+
+}
+
+.Schedule li {
+    display: flex;
+    padding: 5px 0px 0px 0px;
+}
+
+.Schedule h1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.Contact2 {
+    padding: 25px 0px 0px 1100px;
+}
+
+.Contact2 li img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 15px 0px 0px;
+}
+
+.Footer {
+    padding: 70px 0px 35px 550px;
+    background-color: rgba(64, 64, 14, 0.905);
+    background-attachment: fixed;
+}
+
+.Footer li img {
+    width: 30px;
+    height: 30px;
+}
+
+.Footer li {
+    display: inline-block;
+    padding: 0px 0px 0px 30px;
+}
+
+.Footer p {
+    padding: 0px 0px 0px 65px;
+    color: aliceblue;
+}
+
+.Features ul li {
+    padding: 10px 0px 0px 0px;
+    position: relative;
+}
+
+.last {
+    background-color: rgba(72, 72, 34, 0.905);
+    padding: 1px 0px 85px 0px;
+}
+
+.Contact2 ul {
+    padding: 0px 0px;
+}
+
+.last ul {
+    color: aliceblue;
+}
